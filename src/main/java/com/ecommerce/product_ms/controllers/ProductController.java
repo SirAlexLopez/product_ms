@@ -42,13 +42,15 @@ public class ProductController {
         this.productRepository = productRepository;
 
         // Seed
-        /*Product newProduct01 = new Product("001", "DDR4 8G (3200) CRUCIAL BALLISTIX", "RAM DESKTOP DDR4 3200MHZ", 20,
-                "Memories", 210000);
-        Product newProduct02 = new Product("002", "DDR4 8G (3400) CRUCIAL BALLISTIX", "RAM DESKTOP DDR4 3400MHZ", 30,
-                "Memories", 260000);
-
-        this.productRepository.save(newProduct01);
-        this.productRepository.save(newProduct02);*/
+        /*
+         * Product newProduct01 = new Product("001", "DDR4 8G (3200) CRUCIAL BALLISTIX",
+         * "RAM DESKTOP DDR4 3200MHZ", 20, "Memories", 210000); Product newProduct02 =
+         * new Product("002", "DDR4 8G (3400) CRUCIAL BALLISTIX",
+         * "RAM DESKTOP DDR4 3400MHZ", 30, "Memories", 260000);
+         * 
+         * this.productRepository.save(newProduct01);
+         * this.productRepository.save(newProduct02);
+         */
 
     }
 
