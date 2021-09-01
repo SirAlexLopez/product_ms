@@ -6,20 +6,32 @@ import org.springframework.data.annotation.Id;
 public class Product {
     @Id
     private String product_Id;
-
+    private String url;
     private String name;
     private String description;
     private int quantity;
     private String category;
     private double price;
 
-    public Product(String product_Id, String name, String description, int quantity, String category, double price) {
+    
+
+    public Product(String product_Id, String url, String name, String description, int quantity, String category,
+            double price) {
         this.product_Id = product_Id;
+        this.url = url;
         this.name = name;
         this.description = description;
         this.quantity = quantity;
         this.category = category;
         this.price = price;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     public String getProduct_Id() {
